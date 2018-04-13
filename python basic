@@ -1,0 +1,36 @@
+print("Primer codigo en Python")
+
+#soy un comentario
+#variable random para mi uso
+alex = 0
+
+alex = int(input())
+
+print(alex)
+
+alex += 10
+
+print("tu edad es ",alex)
+
+
+if alex > 18:
+    print ("sos mayor de edad :3 ")
+elif alex == 18:
+    print("tas en el palo")
+else:
+     print ("sos menor picaron")
+
+
+if alex > 18:
+    print("aloha way")
+else:
+    if alex == 18:
+        print("adios way")
+    else:
+        print("hakuna your tatas")
+
+
+
+for i in range(5):
+    print("soy i ahora",i)
+    
