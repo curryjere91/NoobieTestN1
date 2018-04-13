@@ -55,3 +55,5 @@ print(haiku)
 6/4
 #convertimos un numero en float para que el resultado de float ( numero con decimal )
 float(6)/4
+
+#conectores logicos & , | , not, 
