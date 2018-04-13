@@ -8,13 +8,11 @@ alex = int(input())
 
 print(alex)
 
-
-#es lo mismo que poner alex = alex + 10
 alex += 10
 
 print("tu edad es ",alex)
 
-#seleccion condicional 1
+
 if alex > 18:
     print ("sos mayor de edad :3 ")
 elif alex == 18:
@@ -22,7 +20,7 @@ elif alex == 18:
 else:
      print ("sos menor picaron")
 
-#seleccion condicional 2
+
 if alex > 18:
     print("aloha way")
 else:
@@ -32,7 +30,25 @@ else:
         print("hakuna your tatas")
 
 
-#repeticion simple
+
 for i in range(5):
     print("soy i ahora",i)
+
     
+"""esto es un comentario
+de multilinea
+esta copado"""
+
+haiku = """aguante los trapitos
+los trapitos son cools
+ser cool es ser trapito"""
+
+print(haiku)
+
+    
+#division simple ( da un int )
+6/2
+#da un int
+6/4
+#convertimos un numero en float para que el resultado de float ( numero con decimal )
+float(6)/4
