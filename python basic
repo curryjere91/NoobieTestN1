@@ -1,13 +1,16 @@
+#imprimo en pantalla Primer codigo en Python
 print("Primer codigo en Python")
 
 #soy un comentario
 #variable random para mi uso
 alex = 0
 
+#pido que el usuario ingrese un integer
 alex = int(input())
 
 print(alex)
 
+#es lo mismo que hacer alex = alex + 10
 alex += 10
 
 print("tu edad es ",alex)
