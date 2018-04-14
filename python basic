@@ -57,3 +57,6 @@ print(haiku)
 float(6)/4
 
 #conectores logicos & , | , not, 
+
+#str convierte a string lo que esta en la variable
+print("hola " + str(alex))
